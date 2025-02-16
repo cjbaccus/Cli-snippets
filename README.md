@@ -16,7 +16,11 @@ find . -name "* *" -type d -execdir rename -v 's/ /_/g' {} +
 ```bash
 mkdir -p {dir1,dir2,dir3,dir1/tasks,dir1/templates,dir2/tasks,dir2/templates,dir3/tasks}
 ```
+#### strip out contents in between double quotes and assign to a variable
 
+```bash
+PANAPI=$(cat .panrc01 | grep -o '"[^"]*"')
+```
 
 ### azure-cli
 
