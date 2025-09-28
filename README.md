@@ -89,10 +89,4 @@ print_color "$YELLOW" "Warning: Check this setting"
 
 ### Python
 
-#### Generate IP address range
-
-```python
-ips = [f"{i}.{i}.{i}.{i}" for i in range(1, 11)]
-for ip in ips:
-    print(ip)
-```
+See [python-snippets.md](python-snippets.md) for Python code snippets.
