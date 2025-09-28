@@ -8,10 +8,11 @@ A collection of useful bash, zsh, and general Linux command line tool snippets a
   - [Directory Management](#directory-management)
   - [File Creation](#file-creation)
   - [Text Processing](#text-processing)
+- [Scripting Examples](#scripting-examples)
+  - [Bash](#bash)
 - [Cloud Tools](#cloud-tools)
   - [Azure CLI](#azure-cli)
-- [Scripting Examples](#scripting-examples)
-  - [Python](#python)
+- [Python](#python)
 
 ## File and Directory Operations
 
@@ -44,12 +45,6 @@ touch file{1..34}.txt
 ```bash
 PANAPI=$(cat .panrc01 | grep -o '"[^"]*"')
 ```
-
-## Cloud Tools
-
-### Azure CLI
-
-See [azure-cli.md](azure-cli.md) for Azure CLI command snippets.
 
 ## Scripting Examples
 
@@ -87,6 +82,12 @@ print_color "$GREEN" "Success: Operation completed!"
 print_color "$YELLOW" "Warning: Check this setting"
 ```
 
-### Python
+## Cloud Tools
+
+### Azure CLI
+
+See [azure-cli.md](azure-cli.md) for Azure CLI command snippets.
+
+## Python
 
 See [python-snippets.md](python-snippets.md) for Python code snippets.
