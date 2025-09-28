@@ -33,3 +33,4 @@ This is a command-line snippets collection repository containing bash, zsh, and 
 - No package managers, frameworks, or development tools are configured
 - Repository uses MIT license
 - to memorize
+- to memorize
