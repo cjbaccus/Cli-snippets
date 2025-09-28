@@ -49,17 +49,7 @@ PANAPI=$(cat .panrc01 | grep -o '"[^"]*"')
 
 ### Azure CLI
 
-#### List all virtual machines
-
-```bash
-az vm list
-```
-
-#### List available VM sizes
-
-```bash
-az vm list-sizes
-```
+See [azure-cli.md](azure-cli.md) for Azure CLI command snippets.
 
 ## Scripting Examples
 
