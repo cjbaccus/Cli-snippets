@@ -85,7 +85,7 @@ print_color "$YELLOW" "Warning: Check this setting"
 #### Count words in multiple files
 
 ```bash
-echo $($(cat *.md | wc -w))
+echo $(cat *.md | wc -w)
 ```
 
 ## Cloud Tools
