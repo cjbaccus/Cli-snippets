@@ -82,6 +82,12 @@ print_color "$GREEN" "Success: Operation completed!"
 print_color "$YELLOW" "Warning: Check this setting"
 ```
 
+#### Count words in multiple files
+
+```bash
+echo $($(cat *.md | wc -w))
+```
+
 ## Cloud Tools
 
 ### Azure CLI
